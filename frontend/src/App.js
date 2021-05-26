@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Authenticator from './components/Authenticator'
 import Downloader from './pages/Downloader'
 
-function App() {
+const App = () => {
   return (
     <Authenticator>
       <Navbar />
