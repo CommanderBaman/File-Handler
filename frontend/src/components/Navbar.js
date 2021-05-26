@@ -1,7 +1,7 @@
-import './styles/navbar.css'
+import styles from './styles/navbar.module.css'
 
 const Navbar = () => {
-  return <div className='navbar-wrapper'>Navbar</div>
+  return <div className={styles.navbarWrapper}>Navbar</div>
 }
 
 export default Navbar

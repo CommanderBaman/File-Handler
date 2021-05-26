@@ -1,7 +1,7 @@
-import './styles/uploader.css'
+import styles from './styles/uploader.module.css'
 
 const Uploader = () => {
-  return <div className='uploader-wrapper'>Uploader</div>
+  return <div className={styles.uploaderWrapper}>Uploader</div>
 }
 
 export default Uploader

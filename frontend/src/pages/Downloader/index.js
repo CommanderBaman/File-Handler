@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from './styles/downloader.css'
+import styles from './styles/downloader.module.css'
 import GlobalTab from './Tabs/GlobalTab'
 import PersonalTab from './Tabs/PersonalTab'
 import SharedTab from './Tabs/SharedTab'

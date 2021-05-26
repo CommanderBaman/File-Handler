@@ -1,7 +1,7 @@
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css'
 
-import styles from './styles/tabView.css'
+import styles from './styles/tabView.module.css'
 
 /**
  * CustomTabs is the customized version of Tabs

@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* global variables here */
+    --color-primary: #000000;
+    --bg-primary: #eeeeee;
+}
+
+body {
+    background-color: var(--bg-primary);
+}
