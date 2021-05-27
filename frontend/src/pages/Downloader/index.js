@@ -38,11 +38,12 @@ const Downloader = () => {
         {TabComponents.map((component, index) => (
           <CustomTabPanel key={index} index={index}>
             <div
-            // className={`${styles.tabPanel} ${
-            //   tabSwitchSignal
-            //     ? styles.opacityAppear300ms
-            //     : styles.opacityDisappear300ms
-            // }`}
+              className={styles.tabPanel}
+              // className={`${styles.tabPanel} ${
+              //   tabSwitchSignal
+              //     ? styles.opacityAppear300ms
+              //     : styles.opacityDisappear300ms
+              // }`}
             >
               {component}
             </div>

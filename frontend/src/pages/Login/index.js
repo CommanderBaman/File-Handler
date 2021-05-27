@@ -3,7 +3,7 @@ import styles from './styles/login.module.css'
 import { Link, Redirect, useHistory } from 'react-router-dom'
 import { useAuth } from '../../components/Authenticator'
 
-function Login() {
+const Login = () => {
   const user = useAuth()
   const userHistory = useHistory()
 

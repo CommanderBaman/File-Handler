@@ -25,11 +25,7 @@ const EditUser = () => {
       <form onSubmit={handleFormSubmit}>
         <label>
           Name:
-          <input
-            type='text'
-            value={name}
-            onChange={handleNameChange}
-          ></input>
+          <input type='text' value={name} onChange={handleNameChange}></input>
         </label>
         <label>
           UserName:

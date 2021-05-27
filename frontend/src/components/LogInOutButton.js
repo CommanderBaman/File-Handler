@@ -1,7 +1,7 @@
 import { useAuth } from './Authenticator'
 import { useHistory } from 'react-router-dom'
 
-import styles from './styles/userInfo.module.css'
+import styles from './styles/logInOutButton.module.css'
 
 const LogInOutButton = () => {
   const user = useAuth()
